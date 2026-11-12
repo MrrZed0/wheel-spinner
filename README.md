@@ -1,5 +1,7 @@
 # Streamer.bot Wheel Overlay — Setup
 
+![https://github.com/MrrZed0/wheel-spinner/blob/main/Untitled.png?raw=true](https://github.com/MrrZed0/wheel-spinner/blob/main/Untitled.png?raw=true)
+
 Three pieces:
 
 | File | What it is |
