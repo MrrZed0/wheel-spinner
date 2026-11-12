@@ -1,0 +1,134 @@
+{
+  "ws": {
+    "url": "ws://127.0.0.1:8080/",
+    "reconnectMs": 3000,
+    "syncAction": "Wheel"
+  },
+  "layout": {
+    "size": 820,
+    "anchor": "center",
+    "offsetX": 0,
+    "offsetY": 0,
+    "title": "PLAYER 1 SELECT",
+    "showTitle": true,
+    "titleColor": "#ffffff"
+  },
+  "style": {
+    "preset": "s_nes_26",
+    "customColors": false,
+    "colors": [
+      "#7c7c7c",
+      "#0000fc",
+      "#f83800",
+      "#00b800",
+      "#f0bc3c",
+      "#b53120",
+      "#3cbcfc",
+      "#d82800"
+    ],
+    "rimColor": "",
+    "textColor": "#ffffff",
+    "pointerColor": "#ffffff",
+    "hubColor": "#ffffff",
+    "borderWidth": -1,
+    "labelScale": 1.05,
+    "maxLabel": 60,
+    "showUser": true,
+    "hubImg": "",
+    "hubData": "",
+    "hubEmbed": false,
+    "hubSize": 0.22,
+    "hubCut": true,
+    "hubRing": true,
+    "hubRingColor": "#ffffff",
+    "hubRingWidth": 6,
+    "hubBg": ""
+  },
+  "fonts": {
+    "label": {
+      "family": "Arial",
+      "google": false,
+      "weight": 700,
+      "italic": false,
+      "upper": false,
+      "letter": 0,
+      "color": "#ffffff",
+      "userColor": "#ffffff",
+      "outline": -1,
+      "outlineColor": "#000000",
+      "shadow": true
+    },
+    "title": {
+      "family": "Arial",
+      "google": false,
+      "weight": 700,
+      "italic": false,
+      "upper": false,
+      "letter": 3,
+      "size": 30,
+      "color": "#ffffff",
+      "outline": 0,
+      "outlineColor": "#000000",
+      "shadow": true
+    },
+    "card": {
+      "family": "Arial Black",
+      "google": false,
+      "weight": 700,
+      "italic": false,
+      "upper": false,
+      "letter": 1,
+      "size": 46,
+      "color": "",
+      "labelColor": "",
+      "userColor": ""
+    }
+  },
+  "spin": {
+    "anim": "a_21_1",
+    "durationSec": 0,
+    "turnsOverride": 0
+  },
+  "effects": {
+    "spin": "fx_grid_1",
+    "win": "fx_stars_2"
+  },
+  "sound": {
+    "spin": "coinrun",
+    "win": "bitfanfare",
+    "tick": "tick",
+    "ticks": true,
+    "volume": 1,
+    "tickVolume": 1
+  },
+  "reveal": {
+    "hold": 10,
+    "unit": "sec",
+    "card": "marquee",
+    "cardAnim": "Shock In",
+    "label": "WINNER",
+    "pos": "Over wheel"
+  },
+  "behaviour": {
+    "idleShow": false,
+    "showCount": true,
+    "entranceAnim": "Drop In",
+    "exitAnim": "Zoom Out"
+  },
+  "bot": {
+    "platform": "twitch",
+    "sendAsBot": true,
+    "chatReplies": true,
+    "announce": true,
+    "announceColor": "orange",
+    "perUser": 1,
+    "maxItemLen": 60,
+    "maxEntries": 0,
+    "blockDupes": true,
+    "modsSpin": true,
+    "modsClear": true,
+    "announceDelay": 6000,
+    "removeWinner": true
+  },
+  "themeName": "NES"
+}
